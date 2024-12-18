@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+th, td {
+    background-color: aqua;
+    border: 1px solid;
+    padding: 10px;
+    width: 9%;
+}
+table {
+    margin-top: 50px;
+}
+ul li a:hover {
+    background: aqua 2px;
+}
