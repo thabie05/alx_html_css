@@ -163,14 +163,13 @@ text-decoration-skip-ink: none;
   position: relative;
 }
 
-.video::before {
+.video::after {
   content: url(https://i.ibb.co/1vn5JJ5/play.png);
   width: 64px;
   height: 64px;
-  top: 10%;
+  top: 13%;
   left: 40%;
   position: absolute;
-
 }
 
 .video h3 {
@@ -180,7 +179,6 @@ text-decoration-skip-ink: none;
   text-align: left;
   text-decoration-skip-ink: none;
   padding: 15px 10px;
-
 }
 
 .video p {
