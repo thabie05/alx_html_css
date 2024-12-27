@@ -330,7 +330,6 @@ text-decoration-skip-ink: none;
   line-height: 40.22px;
   text-align: center;
   text-decoration-skip-ink: none;
-  margin-top: 10px;
 }
 
 .section-membership h2 span {
@@ -359,6 +358,9 @@ text-decoration-skip-ink: none;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  width: 215px;
+  margin: 0;
+
 }
 
 .members-card p {
@@ -367,10 +369,11 @@ text-decoration-skip-ink: none;
   line-height: 26px;
   text-align: center;
   text-decoration-skip-ink: none;
+  width: 215px;
+  margin: 0;
 }
 
 .button {
-  margin-top: 50px;
   padding: 15px 20px;
   border-radius: 50px;
   background-color: rgba(194, 113, 255, 1);
@@ -418,6 +421,7 @@ text-decoration-skip-ink: none;
   text-align: left;
   text-decoration-skip-ink: none;
   color: #07162980;
+  width: 350px;
 }
 
 .faq-card h3 {
