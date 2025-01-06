@@ -1,0 +1,101 @@
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+
+body::after {
+    content: '';position: absolute;
+    width: 1400px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background: radial-gradient(100% 100% at 50% 0%, #29303d00 0%, #071629 100%);
+    background-blend-mode: normal, color;
+    
+}
+
+body {
+    position: relative;
+    width: 1400px;
+    height: 3006px;
+    background-image: url(https://i.ibb.co/0mffxsv/Photo-Room-20250106-182136.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center;
+    background-position-y: top;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1000.39px;
+    height: 32px;
+    margin: 0 auto;
+    position: relative;
+    top: 27.76px;
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    align-items: center;
+}
+
+ li a {
+    text-decoration: none;
+    font-weight: 500;
+    height: 15px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+ }
+
+ section {
+    width: 637px;
+    height: 313px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 312px;
+
+
+ }
+
+ h1 {
+    position: relative;
+    top: 0;
+    font-size: 32px;
+    font-style: bold;
+ }
+ h2 {
+    position: relative;
+    top: -25px;
+    font-size: 16px;
+ }
+
+ button {
+    width: 162px;
+    height: 44px;
+    background-color: #ff6565;
+    border-radius: 50px;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+ }
+
+ p {
+    width: 637px;
+    height: 104px;
+    position: relative;
+    top: 54px;
+    line-height: 26px;
+    font-size: 16px;
+    font-style: normal;
+ }
+
+

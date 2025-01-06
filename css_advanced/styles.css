@@ -34,10 +34,6 @@ header nav {
   nav ul {
     width: 234px;
     height: 15px;
-    top: 37px;
-    left: 1041px;
-    gap: 0px;
-    opacity: 0px;
     display: flex;
     gap: 3rem;
     list-style: none;
@@ -50,11 +46,7 @@ header nav {
   }
   nav img {
     width: 167.02px;
-height: 29.46px;
-top: 35.02px;
-left: 171.59px;
-gap: 0px;
-opacity: 0px;
+    height: 29.46px;
 }
 
 .main {
