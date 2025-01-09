@@ -1,8 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/source-sans-pro');
 
 body::after {
-    content: '';
-    position: absolute;
+    content: '';position: absolute;
     width: 100%;
     height: 800px;
     left: 0px;
@@ -191,7 +190,6 @@ nav ul {
    padding: 0;
  }
 
- 
  .part-3-dark::before {
   content: '';
   position: absolute;
@@ -331,130 +329,6 @@ nav ul {
    top: 30px;
 }
 
-.part-4-contact-us {
-  background: #ffffff;
-  height: 373px;
-  width: 335px;
-  position: relative;
-  top: 630px;
-  display: flex;
-  justify-content: center;
-  margin: 100px auto;
-}
-.contact-us {
-  color: #071629;
-  text-align: center;
-  font-family: "ABeeZee-Regular", sans-serif;
-  font-size: 32px;
-  font-weight: 400;
-  position: absolute;
-  width: 100%;
-}
-
-form{
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   top: 1px;
-   gap: 20px;
-}
-
-label {
-  font-family: 'Source Sans 3';
-   display: block;
-   color: #071629;
-   position: relative;
-   top: 105px;
-   font-size: 14px;
-   z-index: 1;
-   
-}
-
-input {
-   width: 335px;
-   border: none;
-   border-bottom: 1px solid #979797;
-   position: relative;
-   top: 80px;
-   opacity: 0.37;
-}
-
-input:focus {
-  outline: none;
-}
-
-form button {
-   position: relative;
-   top: 160px;
-   left: 90px;
-}
-
-footer {
-  background-color: #071629;
-  position: relative;
-  top: 700px;
-  max-width: 1400px;
-  height: 249px;
-}
-
-.footer-a {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1000px;
-  position: relative;
-  top: 91.76px;
-  padding: 0 2rem;
-  margin: 0 auto;
-}
-
-.footer-img {
-  width: 161px;
-  height: 32px;
-  position: relative;
-}
-
-.socials {
-  display: flex;
-  position: relative;
-  width: 130px;
-  height: 30px;
-  gap: 20px;
-  padding: 0;
-  top: 0;
-}
-
-.i-container {
-  width: 30px;
-  height: 30px;
-  background-color: #FFFFFF;
-  border-radius: 50%;
-}
-
-i {
-  color: #071629;
-  position: relative;
-  left: 6.5px;
-  top: 5px;
-}
-
-a:nth-child(1) i {
-  position: relative;
-  left: 9px;
-  font-weight: 500;
-}
-
-footer p {
-  display: flex;
-  margin: 0 auto;
-  max-width: 98px;
-  height: 15px;
-  position: relative;
-  top: 115px;
-  font-size: 12px;
-  color: #ffffff65;
-}
-
-
 @media (max-width: 1103px) {
   
 
@@ -464,29 +338,6 @@ footer p {
   .part-3-dark::before {
     
   background: radial-gradient(73.41% 54.41% at 0% 0%, #10192978 0%, #071629 130%);
-  }
-  .part-4-contact-us {
-    background: #ffffff;
-    height: 373px;
-    width: 335px;
-    position: relative;
-    top: 680px;
-    display: flex;
-    justify-content: center;
-    
-    margin: 100px auto;
-  }
-  footer {
-    top: 750px;
-  }
-  .footer-a {
-    top: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-
   }
   }
 
@@ -525,30 +376,6 @@ footer p {
 
     .polygons {
       top: 321px;
-    }
-
-    .part-4-contact-us {
-      background: #ffffff;
-      height: 373px;
-      width: 335px;
-      position: relative;
-      top: 1380px;
-      display: flex;
-      justify-content: center;
-      
-      margin: 100px auto;
-    }
-    footer {
-      top: 1450px;
-    }
-    .footer-a {
-      top: 60px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 2rem;
-  
     }
 
     .rectagle {
