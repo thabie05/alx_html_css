@@ -30,6 +30,8 @@ body::after {
   display:flex;
   flex-wrap: wrap;
 	gap: 10px 20px;
+  position: relative;
+  top: -20px;
 }
 
 .pentagon-1 {
@@ -43,7 +45,6 @@ body::after {
 body {
     position: relative;
     max-width: 1400px;
-    max-height: 4960px;
     margin: 0 auto;
     color: #FFFFFF;
     font-family: 'Source Sans Pro';
@@ -110,13 +111,13 @@ nav ul {
     top: 0;
     font-size: 32px;
     font-style: bold;
-    padding: 0 20px;
+    padding: 0 25px;
  }
  h2 {
     position: relative;
     top: -25px;
     font-size: 16px;
-    padding: 0 70px;
+    padding: 0 75px;
  }
 
  .red {
@@ -233,12 +234,11 @@ nav ul {
   background-size: cover;
   background-position: center;
   background-position-y: -30px;
-  height: 650px;
   position: relative;
   top: 630px;
   text-align: center;
+  height: 650px;
   display: flex;
-  flex-flow: wrap;
   flex-direction: column;
   align-items: center;
 }  
@@ -252,6 +252,7 @@ nav ul {
   top: 109px;
   z-index: 2;
   margin: 0;
+  padding: 0 80px;
 }
 .lorem-ipsum-dolor-si-copy-2 {
   color: #ffffff;
@@ -265,7 +266,6 @@ nav ul {
 }
 
 .polygons {
-  height: 190px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -288,47 +288,6 @@ nav ul {
   padding: 0 2rem;
   z-index: 2;
 }
-.polygon-copy {
-  width: 190px;
-  height: 190px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  bottom: 0%;
-  top: 0%;
-  overflow: visible;
-}
-.polygon {
-  width: 190px;
-  height: 190px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  bottom: 0%;
-  top: 0%;
-}
-.polygon-copy-2 {
-  width: 190px;
-  height: 190px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  bottom: 0%;
-  top: 0%;
-  overflow: visible;
-}
-
-.polygon-copy-22 {
-  width: 190px;
-  height: 190px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  bottom: 0%;
-  top: 0%;
-  overflow: visible;
-}
-
 
 .lorem-ipsum-dolor {
   color: #ffffff;
@@ -339,7 +298,7 @@ nav ul {
   font-weight: 400;
   position: absolute;
   width: 116px;
-  top: 130px;
+  top: 115px;
   padding: 0;
 }
 ._2 {
@@ -350,7 +309,7 @@ nav ul {
    line-height: 26px;
    font-weight: 700;
    position: relative;
-   top: -190px;
+   top: -200px;
 }
 
 .part-4-contact-us {
@@ -531,11 +490,11 @@ footer p {
       }
 
     p {
-      padding: 0 60px; 
+      padding: 0 50px; 
     }
 
     .polygons {
-      top: 321px;
+      top: 220px;
     }
 
     .part-4-contact-us {
@@ -618,9 +577,7 @@ footer p {
         padding: 12px 0;
         text-decoration: none;
         display: block;
-        
       }
-      
       
       .dropdown:hover .dropdown-content {
         display: block;
@@ -631,7 +588,7 @@ footer p {
         top: 0px;
         right: -15px;
     }
-      .rectagle div:hover {
+      .rectagle div:hover:active {
         background-color: #FF6565;
       }
 
