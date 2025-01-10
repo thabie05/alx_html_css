@@ -13,33 +13,34 @@ body::after {
     
 }
 
-.pentagone {
+.background {
+  background-image: url(https://i.ibb.co/0mffxsv/Photo-Room-20250106-182136.png);
+  background-repeat:  no-repeat;
+  background-position: center;
+  background-position-y: top;
+  background-size: 1400px;
   position: absolute;
-    top: 135px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 0;
-    width: 113px;
-    border-top: 113px solid #ff6565;
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent; 
+  z-index: 1;
+  width: 100%;
+  height: 800px;
+}  
+
+.container {
+	margin: 20px;
+  display:flex;
+  flex-wrap: wrap;
+	gap: 10px 20px;
 }
 
-.pentagone:after{
-  position: absolute;
-  content: '';
-  border-bottom: 68px solid #FF6565;
-  border-left: 97.5px solid transparent;
-  border-right:97.5px solid transparent;
-  bottom: 112.5px;
-  left: -40px;
+.pentagon-1 {
+	position: relative;
+	width: 190px;
+	height: 190px;
+	background: #ff6565;
+	clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
 }
 
 body {
-    background-image: url(https://i.ibb.co/0mffxsv/Photo-Room-20250106-182136.png);
-    background-repeat:  no-repeat;
-    background-position: center;
-    background-position-y: top;
     position: relative;
     max-width: 1400px;
     max-height: 4960px;
@@ -131,7 +132,6 @@ nav ul {
 
  p {
     max-width: 637px;
-    height: 104px;
     position: relative;
     top: 54px;
     line-height: 26px;
@@ -174,7 +174,7 @@ nav ul {
    max-width: 1002px;
    gap: 0px;
    position: relative;
-   top: 120px;
+   top: 70px;
    padding: 0 2rem 4rem 2rem;
  }
 
@@ -339,7 +339,7 @@ nav ul {
   font-weight: 400;
   position: absolute;
   width: 116px;
-  top: 112px;
+  top: 130px;
   padding: 0;
 }
 ._2 {
@@ -350,7 +350,7 @@ nav ul {
    line-height: 26px;
    font-weight: 700;
    position: relative;
-   top: 30px;
+   top: -190px;
 }
 
 .part-4-contact-us {
