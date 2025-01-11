@@ -111,13 +111,13 @@ nav ul {
     top: 0;
     font-size: 32px;
     font-style: bold;
-    padding: 0 25px;
+    padding: 0 35px;
  }
  h2 {
     position: relative;
     top: -25px;
     font-size: 16px;
-    padding: 0 75px;
+    padding: 0 85px;
  }
 
  .red {
@@ -252,7 +252,7 @@ nav ul {
   top: 109px;
   z-index: 2;
   margin: 0;
-  padding: 0 80px;
+  padding: 0 85px;
 }
 .lorem-ipsum-dolor-si-copy-2 {
   color: #ffffff;
